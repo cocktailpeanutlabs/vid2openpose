@@ -41,7 +41,7 @@ module.exports = async (kernel) => {
           cmd,
 //          "{{(gpu === 'nvidia' ? self.cmds.nvidia : (gpu === 'amd' ? self.cmds.amd : self.cmds.default))}}",
           "uv pip install -r requirements.txt",
-          "uv pip install gradio==3.36.1"
+          "uv pip install gradio==3.36.1 moviepy==1.0.3"
         ]
       }
     }, {
