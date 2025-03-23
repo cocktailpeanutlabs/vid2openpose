@@ -1,6 +1,6 @@
 const path = require('path')
 module.exports = {
-  version: 1,
+  version: "3.0",
   title: "Video2Openpose",
   icon: "icon.gif",
   description: "Turn any video into Openpose video https://huggingface.co/spaces/fffiloni/video2openpose2",
